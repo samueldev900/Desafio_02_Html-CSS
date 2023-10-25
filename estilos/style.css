@@ -1,18 +1,11 @@
 @charset "UTF-8";
-/*
-    Mobile devices – 320px — 480px.
-    iPads, Tablets – 481px — 768px.
-    Small screens, laptops – 769px — 1024px.
-    Desktops, large screens – 1025px — 1200px.
-    Extra large screens, TV – 1201px, and more.
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700;800&display=swap');
 
 @font-face {
     font-family:'MadeGentle';
     src: url(../Fonts/MadeGentle.otf) format('opentype');
 }
-
 @font-face {
     font-family: 'Anglicus';
     src: url(../Fonts/AnglicusOpti-Bold.otf) format('opentype');
@@ -34,7 +27,6 @@
         align-items: center;
         background-color: #f3e1d3;
     }
-
     main{
         width: 250px;
         height: 550px;
@@ -55,7 +47,6 @@
         margin-top: 10px;
     }
     .perfume{
-
         color: gray;
         letter-spacing: 5px;
         font-size: smaller;
@@ -65,16 +56,13 @@
         display: flex;
         align-items: center;
         margin-top: 5px;
-      
     }
     .price1{
-
         font-weight: 500;
         font-size: 2em;
         margin-right: 20px;
         color: #278668;
         font-family: 'Anglicus', serif;
-
     }
     .price2{
         font-size: smaller;
@@ -94,10 +82,8 @@
         cursor: pointer;
     }
     .descrition{
-
         font-family: Arial, Helvetica, sans-serif;
         color: gray;
-
     }
     h2{
         font-weight: 800;

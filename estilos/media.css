@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+    main{
+        width: 320px;
+    }
+    .btn{
+        width: 300px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    main{
+        width: 480px;
+        height: 600px;
+    }
+    .btn{
+        width: 300px;
+    }
+    .conteudo{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .defult{
+        margin: 5px;
+    }
+    .btn{
+        width: 325px;
+        height: 50px;
+        align-self: center;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 769px){
+    main{
+        width: 700px;
+        height: 450px;
+        display: flex;
+        flex-flow: row;
+    }
+    .img{
+        width: 1000px;
+        height: 550px;
+        background: url(../images/image-product-desktop.jpg)top center no-repeat;
+        background-size: cover;
+    }
+    .conteudo{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .btn{
+        width: 300px;
+        height: 50px;
+    }
+    .btn:hover{
+
+        background-color: #45e4b2;
+    }
+}
